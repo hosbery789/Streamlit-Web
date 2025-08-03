@@ -23,7 +23,7 @@ def getbase(filepath):
         data = fl.read()
     return base64.b64encode(data).decode()
 
-imgpath = r"D:\Something Gretting\4.jpeg"
+imgpath = r"4.jpeg"
 base = getbase(imgpath)
 
 
@@ -53,10 +53,10 @@ button = st.button("Gift for You ")
 
 if button:
     st.title("Moments with you ")
-    st.image(r"D:\Something Gretting\1.jpeg")
-    st.image(r"D:\Something Gretting\2.jpeg")
-    st.image(r"D:\Something Gretting\3.jpeg")
-    st.image(r"D:\Something Gretting\5.jpeg")
+    st.image(r"1.jpeg")
+    st.image(r"2.jpeg")
+    st.image(r"3.jpeg")
+    st.image(r"5.jpeg")
     st.write("Wesite by - rude friend")
     #---------------------------------------------------------------------------------- 
     # audiopath = r"D:\Something Gretting\Relaxing Music to Sleep Instantly – Stress Relief & Mental Calm relax relaxing.mp3"
@@ -74,4 +74,5 @@ if button:
     #            height = 0 )
 
     
+
 
